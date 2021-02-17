@@ -1,0 +1,147 @@
+{
+    "workbench.colorTheme": "Tokyo Night",
+    "explorer.confirmDelete": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "editor.fontFamily": "'Fira Code Medium'",
+    "workbench.startupEditor": "welcomePage",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "workbench.iconTheme": "vscode-icons",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.renderControlCharacters": false,
+    "editor.lineHeight": 25,
+    "dart.flutterSdkPath": "C:\\flutter",
+    "auto-rename-tag.activationOnLanguage": [
+        "html",
+        "xml",
+        "php",
+        "javascript",
+        "python"
+    ],
+    "auto-close-tag.activationOnLanguage": [
+        "xml",
+        "php",
+        "blade",
+        "ejs",
+        "jinja",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "plaintext",
+        "markdown",
+        "vue",
+        "liquid",
+        "erb",
+        "lang-cfml",
+        "cfml",
+        "HTML (EEx)",
+        "HTML (Eex)",
+        "plist"
+    ],
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "java.debug.settings.exceptionBreakpoint.skipClasses": [],
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-1.8",
+            "path": "/path/to/jdk-8",
+        },
+        {
+            "name": "JavaSE-11",
+            "path": "/path/to/jdk-11",
+        },
+        {
+            "name": "JavaSE-14",
+            "path": "/path/to/jdk-14",
+            "default": true
+        },
+    ],
+    "window.zoomLevel": 0,
+    "python.languageServer": "Microsoft",
+    "editor.fontFamily": "'Fira Code'",
+    "editor.fontLigatures": true,
+    "dart.previewLsp": true,
+    "workbench.statusBar.visible": true,
+    "workbench.sideBar.location": "left",
+    "window.menuBarVisibility": "default",
+    "powermode.enabled": true,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "diffEditor.codeLens": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "dart.debugExternalLibraries": true,
+    "dart.debugSdkLibraries": false,
+    "kite.showWelcomeNotificationOnStartup": false,
+    "dart.previewFlutterUiGuides": true,
+    "dart.previewFlutterUiGuidesCustomTracking": true,
+    "workbench.activityBar.visible": true,
+    "dart.flutterCreateOffline": true,
+    "dart.previewBazelWorkspaceCustomScripts": true,
+    "dart.previewEmbeddedDevTools": true,
+}
