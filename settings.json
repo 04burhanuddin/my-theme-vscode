@@ -1,95 +1,50 @@
 {
   "window.titleBarStyle": "custom",
-  "workbench.startupEditor": "welcomePage",
-  "workbench.iconTheme": "vscode-icons",
-  "workbench.colorTheme": "Tokyo Night",
-  // !editor
-  "editor.fontFamily": "Fira Code Medium",
+  "workbench.startupEditor": "newUntitledFile",
+  //editor font
+  "editor.fontFamily": "Fira Code",
   "editor.lineHeight": 25,
-  "editor.fontSize": 16,
-  "editor.cursorBlinking": "expand",
+  "editor.fontSize": 17,
   "editor.fontLigatures": true,
   "editor.minimap.enabled": false,
-  // ?format
+  //editor
   "editor.formatOnPaste": true,
   "editor.formatOnType": true,
   "editor.formatOnSave": true,
-  // ?Live Server
+  "html.format.wrapAttributesIndentSize": 0,
+  "html.format.wrapLineLength": 150,
+  "html.format.unformattedContentDelimiter": "0",
+  "html.format.indentInnerHtml": true,
+  "html.format.endWithNewline": true,
+  // terminal setting
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  //live server
   "liveServer.settings.donotShowInfoMsg": true,
-  // !better Command
-  "better-comments.tags": [
-    {
-      "tag": "!",
-      "color": "#FF2D00",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "?",
-      "color": "#3498DB",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "//",
-      "color": "#474747",
-      "strikethrough": true,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "todo",
-      "color": "#FF8C00",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "*",
-      "color": "#98C379",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    }
-  ],
-  // ?Blade
+  //blade
   "blade.format.enable": true,
   "emmet.triggerExpansionOnTab": true,
   "[blade]": {
-    "editor.autoClosingBrackets": "always"
+    "editor.autoClosingBrackets": "always",
+    "editor.defaultFormatter": "onecentlin.laravel-blade"
   },
-  // ?html
+  //html
   "[html]": {
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": false
     },
     "editor.defaultFormatter": "vscode.html-language-features"
   },
-  // ?Dart
+  //dart
   "dart.previewLsp": true,
   "dart.previewFlutterUiGuidesCustomTracking": true,
   "dart.previewHotReloadOnSaveWatcher": true,
   "dart.previewFlutterUiGuides": true,
   "dart.openDevTools": "flutter",
-  // ?Prettier
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  //php
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
   },
-
-  // ?Auto Rename Tag
+  //autorename tag
   "auto-rename-tag.activationOnLanguage": [
     "html",
     "xml",
@@ -117,5 +72,26 @@
     "HTML (EEx)",
     "HTML (Eex)",
     "plist"
-  ]
+  ],
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "[dart]": {
+    "editor.defaultFormatter": "Dart-Code.dart-code"
+  },
+  // power mode
+  "powermode.enabled": true,
+  // icons vs code
+  "vsicons.dontShowNewVersionMessage": true,
+  // discord
+  "discord.suppressNotifications": true,
+  "terminal.integrated.cursorStyle": "line",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.cursorBlinking": "expand",
+  "files.autoSave": "afterDelay",
+  "discord.removeRemoteRepository": true,
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.colorTheme": "Community Material Theme Darker"
 }
