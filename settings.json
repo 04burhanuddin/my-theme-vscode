@@ -1,53 +1,33 @@
 {
-  // editor
+  "window.titleBarStyle": "custom",
+  "editor.fontFamily": "Fira Code",
+  "editor.lineHeight": 25,
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
   "editor.formatOnPaste": true,
   "editor.formatOnType": true,
   "editor.formatOnSave": true,
-  "editor.fontFamily": "Fira Code Light",
-  "editor.lineHeight": 25,
-  "editor.fontSize": 18,
-  "editor.fontLigatures": true,
-  "editor.minimap.enabled": false,
-  // Theme Costum ui
-  "workbench.colorCustomizations": {
-    "sideBar.background": "#1e1e1e",
-    "sideBarSectionHeader.background": "#1e1e1e",
-    "activityBar.foreground": "#00e1ff",
-    "statusBar.debuggingBackground": "#1e1e1e",
-    "statusBar.background": "#1e1e1e",
-    "scrollbarSlider.activeBackground": "#1e1e1e",
-    "scrollbarSlider.hoverBackground": "#1e1e1e",
-    "scrollbarSlider.background": "#1e1e1e",
-    "tab.activeBackground": "#242424",
-    "tab.activeBorderTop": "#00e1ff",
-    "activityBar.background": "#1e1e1e"
-  },
-  "workbench.iconTheme": "vscode-icons",
-  "workbench.productIconTheme": "fluent-icons",
-  // html
-  "[html]": {
-    "editor.formatOnSave": true,
-    "editor.formatOnType": true,
-    "editor.formatOnPaste": true,
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": false
-    },
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "html.format.wrapAttributesIndentSize": 0,
-  "html.format.wrapLineLength": 150,
+  "html.format.wrapAttributesIndentSize": 1,
   "html.format.unformattedContentDelimiter": "0",
   "html.format.indentInnerHtml": true,
-  "html.format.endWithNewline": true,
-  // dart
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "blade.format.enable": true,
+  "emmet.triggerExpansionOnTab": true,
+  "dart.previewFlutterUiGuidesCustomTracking": true,
+  "dart.previewHotReloadOnSaveWatcher": true,
   "dart.previewFlutterUiGuides": true,
+  "dart.openDevTools": "flutter",
+  "editor.suggestSelection": "first",
   "[dart]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    },
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "editor.formatOnPaste": true,
-    "editor.rulers": [
-      70
-    ],
+    // "editor.rulers": [
+    //   80
+    // ],
     "editor.selectionHighlight": false,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestSelection": "first",
@@ -55,60 +35,105 @@
     "editor.wordBasedSuggestions": false,
     "editor.defaultFormatter": "Dart-Code.dart-code"
   },
-  "powermode.enabled": true,
+  // "explorer.fileNesting.enabled": true,
+  // "explorer.fileNesting.expand": false,
+  // "explorer.fileNesting.patterns": {
+  //   "pubspec.yaml": ".flutter-plugins, .packages, .dart_tool, .flutter-plugins-dependencies, .metadata, .packages, pubspec.lock, build.yaml, analysis_options.yaml, all_lint_rules.yaml",
+  //   ".gitignore": ".gitattributes, .gitmodules, .gitmessage, .mailmap, .git-blame*",
+  //   "readme.*": "authors, backers.md, changelog*, citation*, code_of_conduct.md, codeowners, contributing.md, contributors, copying, credits, governance.md, history.md, license*, maintainers, readme*, security.md, sponsors.md",
+  //   "*.dart": "$(capture).g.dart, $(capture).freezed.dart"
+  // },
+  "editor.guides.bracketPairs": "active",
+  // i like it
+  "workbench.colorCustomizations": {
+    "menu.border": "#32302F",
+    "widget.shadow": "#4b454515",
+    "menu.background": "#302f2f",
+    "breadcrumb.background": "#32302F",
+    "titleBar.activeBackground": "#32302F",
+    "titleBar.inactiveBackground": "#32302F",
+    "editorGroup.emptyBackground": "#32302F",
+    "badge.background": "#FABD2F",
+    "statusBar.background": "#32302F",
+    "scrollbar.shadow": "#32302F",
+    "editorGutter.background": "#32302F",
+    "titleBar.border": "#32302F",
+    "editorGroupHeader.tabsBorder": "#32302F",
+    "editorGroupHeader.tabsBackground": "#32302F",
+    "scrollbarSlider.activeBackground": "#FABD2F",
+    // "scrollbarSlider.hoverBackground": "#FABD2F",
+    "scrollbarSlider.background": "#928374",
+    "activityBar.activeBorder": "#32302F",
+    "sideBar.background": "#32302F",
+    "tab.activeBorder": "#32302F",
+    "panel.border": "#32302F",
+    "sideBarSectionHeader.background": "#32302F",
+    "tab.hoverBackground": "#32302F",
+    "panel.background": "#32302F",
+    "sideBar.border": "#32302F",
+    "editorLineNumber.activeForeground": "#FABD2F",
+    "editorLineNumber.foreground": "#A1937F",
+    "tab.activeBackground": "#32302F",
+    "activityBar.background": "#32302F",
+    "statusBar.border": "#32302F",
+    "activityBar.border": "#32302F",
+    "tab.inactiveBackground": "#32302F",
+    "statusBar.noFolderBackground": "#32302F",
+    "tab.border": "#32302F",
+    "terminal.background": "#32302F",
+    "editor.background": "#32302F",
+    "editorGroup.border": "#32302F",
+    "statusBar.debuggingBackground": "#32302F"
+  },
+  "discord.suppressNotifications": true,
+  "terminal.integrated.cursorStyle": "line",
   "editor.cursorBlinking": "expand",
+  "files.autoSave": "afterDelay",
+  "discord.removeRemoteRepository": true,
+  "editor.minimap.enabled": false,
+  "terminal.integrated.fontSize": 14,
+  "editor.inlineSuggest.enabled": true,
+  "[blade]": {
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+  },
+  "explorer.confirmDelete": false,
+  "redhat.telemetry.enabled": true,
+  "dart.lineLength": 150,
+  "workbench.colorTheme": "Gruvbox Dark Hard",
   "editor.cursorSmoothCaretAnimation": true,
-  // better comment
-  "better-comments.tags": [
-    {
-      "tag": "!",
-      "color": "#FF2D00",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "?",
-      "color": "#3498DB",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "//",
-      "color": "#474747",
-      "strikethrough": true,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "todo",
-      "color": "#FF8C00",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "*",
-      "color": "#98C379",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
+  "bladeFormatter.format.sortTailwindcssClasses": true,
+  "workbench.startupEditor": "none",
+  "html.format.wrapLineLength": 195,
+  "workbench.productIconTheme": "fluent-icons",
+  "editor.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.verticalScrollbarSize": 2,
+  "editor.scrollbar.horizontalScrollbarSize": 2,
+  "editor.semanticTokenColorCustomizations": {
+    "[One Dark Pro]": {
+      // Apply to this theme only
+      "enabled": true,
+      "rules": {
+        "magicFunction:python": "#ee0000",
+        "function.declaration:python": "#990000",
+        "*.decorator:python": "#0000dd",
+        "*.typeHint:python": "#5500aa",
+        "*.typeHintComment:python": "#aaaaaa",
+        "parameter:python": "#aaaaaa"
+      }
     }
-  ],
-  "window.title": "${dirty}${activeEditorShort}${separator}${separator}${appName}",
-  "liveServer.settings.donotVerifyTags": true,
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "window.menuBarVisibility": "hidden"
+  },
+  "workbench.list.smoothScrolling": true,
+  "editor.cursorStyle": "line-thin",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "terminal.integrated.enableBell": true,
+  "sqltools.useNodeRuntime": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.cursorBlinking": true,
+  "bladeFormatter.format.indentSize": 3,
+  "bladeFormatter.format.noMultipleEmptyLines": true,
+  "bladeFormatter.format.wrapLineLength": 190
 }
