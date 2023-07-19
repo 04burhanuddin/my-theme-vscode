@@ -1,7 +1,8 @@
-# This my theme vs code
-before that, I want to clarify the reason why I made this, first, I sometimes use vs code with a certain theme, but in the theme I choose, say using "GruvBox", I don't like the background color of the title bar, menu bar and other defaults from that theme. see the before and after pictures.
+# This is my theme vs code
 
-![](assets/color.png)
+Before that, I want to clarify the reason why I made this, first, I sometimes use vs code with a certain theme, but in the theme I choose, say using "GruvBox", I don't like the background color of the title bar, menu bar and other defaults from that theme. see the before and after pictures.
+
+![color](assets/color.png)
 
 Sometimes I like the highlighting colors of a theme but I don't like some of the colors changing out of the main components in my vs code. therefore I tried to change all the element colors in vs code according to my wishes by following the guide [here](https://code.visualstudio.com/docs/getstarted/userinterface), and here's the final result of my theme which is super clean in my eyes, and I'm used to using **key bindings** for my activities in vs code.
 
