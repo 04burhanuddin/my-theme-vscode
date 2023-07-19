@@ -1,60 +1,41 @@
 {
-  "window.menuBarVisibility": "toggle",
-  "workbench.startupEditor": "none",
-  "workbench.colorTheme": "Gruvbox Dark Hard",
-  "[dart]": {
-    "editor.formatOnSave": true,
-    "editor.formatOnType": true,
-    // "editor.rulers": [
-    //     80
-    // ],
-    "editor.selectionHighlight": false,
-    "editor.suggest.snippetsPreventQuickSuggestions": false,
-    "editor.suggestSelection": "first",
-    "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": false
-  },
-  "editor.wrappingIndent": "none",
+  // editor
   "editor.minimap.enabled": false,
-  "editor.fontFamily": "JetbrainsMono Nerd Font",
-  "editor.fontSize": 15,
-  "editor.tabSize": 3,
-  "workbench.iconTheme": "material-icon-theme",
-  "html.format.wrapLineLength": 0,
-  "bladeFormatter.format.wrapLineLength": 300,
-  "workbench.productIconTheme": "fluent-icons",
-  "terminal.integrated.cursorStyle": "underline",
-  "editor.fontLigatures": true,
-  "editor.formatOnPaste": true,
-  "editor.formatOnType": true,
-  "editor.formatOnSave": true,
   "breadcrumbs.enabled": false,
-  "terminal.integrated.smoothScrolling": true,
+  "editor.tabSize": 3,
+  "editor.wrappingIndent": "none",
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.verticalScrollbarSize": 2,
   "editor.scrollbar.horizontalScrollbarSize": 2,
   "editor.wordBasedSuggestions": false,
   "editor.suggestSelection": "first",
   "editor.lineNumbers": "off",
-  "workbench.activityBar.visible": false,
-  "explorer.fileNesting.enabled": true,
-  "explorer.fileNesting.expand": false,
-  "explorer.fileNesting.patterns": {
-    "pubspec.yaml": ".flutter-plugins, .packages, .dart_tool, .flutter-plugins-dependencies, .metadata, .packages, pubspec.lock, build.yaml, analysis_options.yaml, all_lint_rules.yaml",
-    ".gitignore": ".gitattributes, .gitmodules, .gitmessage, .mailmap, .git-blame*",
-    "readme.*": "authors, backers.md, changelog*, citation*, code_of_conduct.md, codeowners, contributing.md, contributors, copying, credits, governance.md, history.md, license*, maintainers, readme*, security.md, sponsors.md",
-    "*.dart": "$(capture).g.dart, $(capture).freezed.dart",
-    "package.json": "package-lock.json"
-  },
-  "editor.cursorBlinking": "expand",
+  "window.menuBarVisibility": "toggle",
   "editor.cursorSmoothCaretAnimation": "on",
-  "editor.linkedEditing": true,
-  "liveServer.settings.donotShowInfoMsg": true,
-  // "editor.inlayHints.fontFamily": "Roboto",
+  "editor.cursorBlinking": "expand",
   "editor.inlayHints.fontSize": 12,
   "editor.lineHeight": 30,
-  "terminal.integrated.gpuAcceleration": "canvas",
   "editor.scrollbar.vertical": "hidden",
+  "editor.linkedEditing": true,
+  // font
+  "editor.fontFamily": "JetbrainsMono Nerd Font",
+  "editor.fontSize": 15,
+  "editor.fontLigatures": true,
+  // terminal
+  "terminal.integrated.gpuAcceleration": "canvas",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontSize": 14.5,
+  "terminal.integrated.fontFamily": "JetbrainsMono Nerd Font",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.cursorBlinking": true,
+  // workbench
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "fluent-icons",
+  "terminal.integrated.smoothScrolling": true,
+  "workbench.activityBar.visible": false,
+  "workbench.startupEditor": "none",
+  "workbench.statusBar.visible": false,
+  "workbench.colorTheme": "Gruvbox Dark Hard",
   "workbench.colorCustomizations": {
     "menu.border": "#1D2021",
     "widget.shadow": "#4b454515",
@@ -63,7 +44,6 @@
     "titleBar.activeBackground": "#1D2021",
     "titleBar.inactiveBackground": "#1D2021",
     "editorGroup.emptyBackground": "#1D2021",
-    // "badge.background": "#FABD2F",
     "statusBar.background": "#1D2021",
     "scrollbar.shadow": "#1D2021",
     "editorGutter.background": "#1D2021",
@@ -78,11 +58,12 @@
     "tab.activeBorder": "#1D2021",
     "panel.border": "#1D2021",
     "sideBarSectionHeader.background": "#1D2021",
+    "focusBorder": "#1D2021",
     "tab.hoverBackground": "#1D2021",
     "panel.background": "#1D2021",
     "sideBar.border": "#1D2021",
     "editorLineNumber.activeForeground": "#FABD2F",
-    // "editorLineNumber.foreground": "#A1937F",
+    "editorLineNumber.foreground": "#A1937F",
     "tab.activeBackground": "#1D2021",
     "activityBar.background": "#1D2021",
     "statusBar.border": "#1D2021",
@@ -93,14 +74,45 @@
     "terminal.background": "#1D2021",
     "editor.background": "#1D2021",
     "editorGroup.border": "#1D2021",
-    "statusBar.debuggingBackground": "#1D2021"
+    "statusBar.debuggingBackground": "#1D2021",
+    "editor.lineHighlightBackground": "#1D2021",
+    "editor.selectionBackground": "#373a3b7e"
   },
-  "workbench.statusBar.visible": false,
-  "terminal.integrated.fontSize": 14,
-  "terminal.integrated.fontFamily": "JetbrainsMono Nerd Font",
-  "glassit.alpha": 225,
+  // file nesting
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "pubspec.yaml": ".flutter-plugins, .packages, .dart_tool, flutter_100_days.iml, .flutter-plugins-dependencies, .metadata, .packages, pubspec.lock, build.yaml, analysis_options.yaml, all_lint_rules.yaml",
+    ".gitignore": ".gitattributes, .gitmodules, .gitmessage, .mailmap, .git-blame*",
+    "readme.*": "authors, backers.md, changelog*, citation*, code_of_conduct.md, codeowners, contributing.md, contributors, copying, credits, governance.md, history.md, license*, maintainers, readme*, security.md, sponsors.md",
+    "*.dart": "$(capture).g.dart, $(capture).freezed.dart",
+    "package.json": "package-lock.json"
+  },
+  // code formatting
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "html.format.wrapLineLength": 0,
+  "bladeFormatter.format.wrapLineLength": 300,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "glassit.alpha": 215,
+  // dart
   "dart.previewFlutterUiGuides": true,
   "dart.previewFlutterUiGuidesCustomTracking": true,
-  "terminal.integrated.defaultProfile.linux": "zsh",
-  "terminal.integrated.cursorBlinking": true
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    // "editor.rulers": [
+    //     80
+    // ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  // laravel blade
+  "[blade]": {
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+  }
 }
